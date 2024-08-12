@@ -13,7 +13,8 @@ const client = new MongoClient(uri, {
   },
 });
 const WEBOOK_URL =
-  "https://discord.com/api/webhooks/1259803826416783413/bRFdOnaURZGmn6B31BvvJWQZU7xsdNtn5cOsTUzBJdLQEYfYqqdxc24cDW8sNLUj4ovc";
+  "https://discord.com/api/webhooks/1272378060745871490/D5nRFOI6ZhA4W2-6_hlLm64ZWeIBdLRWSFZGTWd9tZfYjXMZIRA9B4rkFxTyrH-iF6sE";
+// ("https://discord.com/api/webhooks/1259803826416783413/bRFdOnaURZGmn6B31BvvJWQZU7xsdNtn5cOsTUzBJdLQEYfYqqdxc24cDW8sNLUj4ovc");
 
 await client.connect();
 const db = client.db("messages");
